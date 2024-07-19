@@ -139,7 +139,7 @@
         <div class="page">
             <!-- content box -->
             <div class="content-box"></div>
-        <?if(CSite::InDir("/index.php")){?>
+        <?if($APPLICATION->GetCurDir() == "/"){?>
             
             <!-- content -->
             <div class="content">
