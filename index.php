@@ -1,10 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("Мебельная компания!");
-?>
-<?require($_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/index.php");?>
+?><?require($_SERVER["DOCUMENT_ROOT"].SITE_TEMPLATE_PATH."/index.php");?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
-
 <!-- <p>
 Наша компания существует на Российском рынке с 1992 года. За это время «Мебельная компания» прошла большой путь от маленькой торговой фирмы до одного из крупнейших производителей корпусной мебели в России.
 </p><p>

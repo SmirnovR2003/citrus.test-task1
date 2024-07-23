@@ -4,7 +4,7 @@ $aMenuLinks = Array(
 		"Условия сотрудничества", 
 		"/partneram/index.php", 
 		Array(), 
-		Array(), 
+		Array("TEXT_UNDER"=>"текст для пункта Условия сотрудничества"), 
 		"" 
 	),
 	Array(
@@ -18,7 +18,7 @@ $aMenuLinks = Array(
 		"Расписание мероприятий", 
 		"/partneram/raspisanie-meropriyatiy/", 
 		Array(), 
-		Array(), 
+		Array("TEXT_UNDER"=>"подтекст Расписание мероприятий"), 
 		"" 
 	)
 );
