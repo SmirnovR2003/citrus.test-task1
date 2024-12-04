@@ -11,22 +11,24 @@ IncludeTemplateLangFile(__FILE__);
 <div class="side">
                     <?
                     $APPLICATION->IncludeComponent(
-                        "bitrix:menu",
-                        "left",
-                        array(
-                            "ALLOW_MULTI_SELECT" => "N",
-                            "CHILD_MENU_TYPE" => "left",
-                            "COMPONENT_TEMPLATE" => "left",
-                            "DELAY" => "N",
-                            "MAX_LEVEL" => "1",
-                            "MENU_CACHE_GET_VARS" => array(),
-                            "MENU_CACHE_TIME" => "3600",
-                            "MENU_CACHE_TYPE" => "N",
-                            "MENU_CACHE_USE_GROUPS" => "Y",
-                            "ROOT_MENU_TYPE" => "left",
-                            "USE_EXT" => "Y"
-                        )
-                    );
+	"bitrix:menu", 
+	"left", 
+	array(
+		"ALLOW_MULTI_SELECT" => "N",
+		"CHILD_MENU_TYPE" => "left",
+		"COMPONENT_TEMPLATE" => "left",
+		"DELAY" => "N",
+		"MAX_LEVEL" => "1",
+		"MENU_CACHE_GET_VARS" => array(
+		),
+		"MENU_CACHE_TIME" => "3600",
+		"MENU_CACHE_TYPE" => "A",
+		"MENU_CACHE_USE_GROUPS" => "Y",
+		"ROOT_MENU_TYPE" => "left",
+		"USE_EXT" => "Y"
+	),
+	false
+);
                     ?>
                     <!-- side anonse -->
                     <div class="side-block side-anonse">
@@ -146,7 +148,7 @@ IncludeTemplateLangFile(__FILE__);
                 </div>
             </nav>
             <div class="contacts-block">
-                <div class="title-block"><?=GetMessage("contact-information")?></div>
+                <div class="title-block"><?=GetMessage("CONTACT_INFO")?></div>
                 <div class="loc-block">
                     <div class="address">ул. Летняя, стр.12, офис 512</div>
                     <div class="phone"><a href="tel:84952128506">8 (495) 212-85-06</a>
